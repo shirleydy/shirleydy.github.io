@@ -3,7 +3,7 @@
  * @Author: Jack Deng
  * @Date: 2021-05-16 12:39:09
  * @LastEditors: Jack Deng
- * @LastEditTime: 2021-05-16 20:52:33
+ * @LastEditTime: 2021-05-16 20:56:06
  * @FilePath: /shirley/src/pages/project/festival.js
  */
 /*
@@ -20,12 +20,6 @@ import { Header } from "../../components";
 import icon1 from "../../images/icon1.jpg";
 import icon2 from "../../images/icon2.jpg";
 import icon3 from "../../images/icon3.jpg";
-// import post1 from "../../images/poster1.png";
-// import post2 from "../../images/poster2.png";
-// import post3 from "../../images/poster3.png";
-// import post4 from "../../images/poster4.png";
-// import post5 from "../../images/poster5.png";
-// import post6 from "../../images/poster6.png";
 
 import "animate.css";
 import "../../styles/festival/index.css";
