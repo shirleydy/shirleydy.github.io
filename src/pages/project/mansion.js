@@ -3,7 +3,7 @@
  * @Author: Jack Deng
  * @Date: 2021-04-26 17:38:10
  * @LastEditors: Jack Deng
- * @LastEditTime: 2021-05-16 15:46:57
+ * @LastEditTime: 2021-05-16 21:40:57
  * @FilePath: /shirley/src/pages/project/mansion.js
  */
 import React from "react";
@@ -12,10 +12,6 @@ import { Header } from "../../components";
 import icon1 from "../../images/icon1.jpg";
 import icon2 from "../../images/icon2.jpg";
 import icon3 from "../../images/icon3.jpg";
-import starMansion from "../../images/starmansion.jpg";
-import star2 from "../../images/star2.jpg";
-import star3 from "../../images/star3.png";
-import star4 from "../../images/star4.jpg";
 
 import "animate.css";
 import "../../styles/mansion/index.css";
@@ -44,16 +40,28 @@ function Index() {
           </div>
           <span className="Mansion_info5">{"My Original Illustration"}</span>
           <div className="Mansion_wrap4 flex-col">
-            <img className={"Mansion_img"} src={starMansion} />
+            <img
+              className={"Mansion_img"}
+              src={"https://i.postimg.cc/nV0d1Ps3/starmansion.jpg"}
+            />
           </div>
           <div className="Mansion_wrap5 flex-col">
-            <img className={"Mansion_img"} src={star2} />
+            <img
+              className={"Mansion_img"}
+              src={"https://i.postimg.cc/prXsHDSQ/star2.jpg"}
+            />
           </div>
           <div className="Mansion_wrap6 flex-col">
-            <img className={"img"} src={star3} />
+            <img
+              className={"img"}
+              src={"https://i.postimg.cc/D0jBySV9/star3.png"}
+            />
           </div>
           <div className="Mansion_wrap6 flex-col">
-            <img className={"img"} src={star4} />
+            <img
+              className={"img"}
+              src={"https://i.postimg.cc/PrJSVQYT/star4.jpg"}
+            />
           </div>
 
           <span className="Mansion_txt1">{"Let’s connect"}</span>

@@ -3,7 +3,7 @@
  * @Author: Jack Deng
  * @Date: 2021-04-26 17:38:10
  * @LastEditors: Jack Deng
- * @LastEditTime: 2021-05-16 15:49:54
+ * @LastEditTime: 2021-05-16 21:42:00
  * @FilePath: /shirley/src/pages/illustration.js
  */
 import React from "react";
@@ -12,9 +12,6 @@ import { Header } from "../components";
 import icon1 from "../images/icon1.jpg";
 import icon2 from "../images/icon2.jpg";
 import icon3 from "../images/icon3.jpg";
-import starMansion from "../images/starmansion.jpg";
-import festival from "../images/festival.jpg";
-import qixi from "../images/qixi.jpg";
 
 import "animate.css";
 import "../styles/illustration/index.css";
@@ -52,7 +49,10 @@ function Index() {
               onMouseLeave={handleMouseLeave}
               onMouseEnter={handleMouseEnter}
             >
-              <img className={"Illustration_img"} src={starMansion} />
+              <img
+                className={"Illustration_img"}
+                src={"https://i.postimg.cc/nV0d1Ps3/starmansion.jpg"}
+              />
             </div>
           </Link>
           <Link to="/project/festival">
@@ -61,7 +61,10 @@ function Index() {
               onMouseLeave={handleMouseLeave}
               onMouseEnter={handleMouseEnter}
             >
-              <img className={"Illustration_img"} src={festival} />
+              <img
+                className={"Illustration_img"}
+                src={"https://i.postimg.cc/2yzK5p1Z/festivalposter.jpg"}
+              />
             </div>
           </Link>
           <Link to="/project/qixi">
@@ -70,7 +73,10 @@ function Index() {
               onMouseLeave={handleMouseLeave}
               onMouseEnter={handleMouseEnter}
             >
-              <img className={"img"} src={qixi} />
+              <img
+                className={"img"}
+                src={"https://i.postimg.cc/76NKdBKY/qixifestival.jpg"}
+              />
             </div>
           </Link>
           <span className="Illustration_txt1">{"Let’s connect"}</span>

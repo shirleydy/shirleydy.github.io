@@ -3,17 +3,14 @@
  * @Author: Jack Deng
  * @Date: 2021-04-26 17:38:10
  * @LastEditors: Jack Deng
- * @LastEditTime: 2021-05-16 15:52:15
+ * @LastEditTime: 2021-05-16 21:42:08
  * @FilePath: /shirley/src/pages/index.js
  */
 import React from "react";
 import { Link } from "gatsby";
-import meet from "../images/meet.jpg";
 import icon1 from "../images/icon1.jpg";
 import icon2 from "../images/icon2.jpg";
 import icon3 from "../images/icon3.jpg";
-import starMansion from "../images/starmansion.jpg";
-import elk from "../images/elkdi.jpg";
 
 import { Header } from "../components";
 
@@ -64,7 +61,10 @@ function Index() {
               onMouseLeave={handleMouseLeave}
               onMouseEnter={handleMouseEnter}
             >
-              <img className={"img"} src={meet} />
+              <img
+                className={"img"}
+                src={"https://i.postimg.cc/xdz7x3rc/meet.jpg"}
+              />
             </div>
           </Link>
           <Link to="/project/emoji">
@@ -73,7 +73,10 @@ function Index() {
               onMouseLeave={handleMouseLeave}
               onMouseEnter={handleMouseEnter}
             >
-              <img className={"img"} src={elk} />
+              <img
+                className={"img"}
+                src={"https://i.postimg.cc/QdPwJny2/elkdi.jpg"}
+              />
             </div>
           </Link>
           <Link to="/project/mansion">
@@ -82,7 +85,10 @@ function Index() {
               onMouseLeave={handleMouseLeave}
               onMouseEnter={handleMouseEnter}
             >
-              <img className={"img"} src={starMansion} />
+              <img
+                className={"img"}
+                src={"https://i.postimg.cc/nV0d1Ps3/starmansion.jpg"}
+              />
             </div>
           </Link>
           <span className="txt1">{"Let’s connect"}</span>

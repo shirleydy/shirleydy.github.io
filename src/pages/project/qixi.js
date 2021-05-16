@@ -3,7 +3,7 @@
  * @Author: Jack Deng
  * @Date: 2021-04-26 17:38:10
  * @LastEditors: Jack Deng
- * @LastEditTime: 2021-05-16 15:56:22
+ * @LastEditTime: 2021-05-16 21:41:30
  * @FilePath: /shirley/src/pages/project/qixi.js
  */
 import React from "react";
@@ -12,8 +12,6 @@ import { Header } from "../../components";
 import icon1 from "../../images/icon1.jpg";
 import icon2 from "../../images/icon2.jpg";
 import icon3 from "../../images/icon3.jpg";
-import qixi1 from "../../images/qixi1.png";
-import qixi2 from "../../images/qixi2.png";
 
 import "animate.css";
 import "../../styles/qixi/index.css";
@@ -42,10 +40,16 @@ function Index() {
           </div>
           <span className="Qixi_info5">{"H5 Pages"}</span>
           <div className="Qixi_wrap4 flex-col">
-            <img className={"Qixi_img"} src={qixi1} />
+            <img
+              className={"Qixi_img"}
+              src={"https://i.postimg.cc/yNcQX69R/qixi1.png"}
+            />
           </div>
           <div className="Qixi_wrap5 flex-col">
-            <img className={"Qixi_img"} src={qixi2} />
+            <img
+              className={"Qixi_img"}
+              src={"https://i.postimg.cc/0QvttgdB/qixi2.png"}
+            />
           </div>
 
           <span className="Qixi_txt1">{"Let’s connect"}</span>
