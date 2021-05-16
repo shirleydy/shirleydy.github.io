@@ -3,7 +3,7 @@
  * @Author: Jack Deng
  * @Date: 2021-04-26 17:38:10
  * @LastEditors: Jack Deng
- * @LastEditTime: 2021-05-16 15:52:36
+ * @LastEditTime: 2021-05-16 21:38:48
  * @FilePath: /shirley/src/pages/work.js
  */
 import React from "react";
@@ -11,11 +11,6 @@ import { Link } from "gatsby";
 import icon1 from "../images/icon1.jpg";
 import icon2 from "../images/icon2.jpg";
 import icon3 from "../images/icon3.jpg";
-import starMansion from "../images/starmansion.jpg";
-import festival from "../images/festival.jpg";
-import qixi from "../images/qixi.jpg";
-import elk from "../images/elkdi.jpg";
-import meet from "../images/meet.jpg";
 
 import { Header } from "../components";
 
@@ -51,7 +46,10 @@ function Index() {
               onMouseLeave={handleMouseLeave}
               onMouseEnter={handleMouseEnter}
             >
-              <img className={"Work_img"} src={meet} />
+              <img
+                className={"Work_img"}
+                src={"https://i.postimg.cc/xdz7x3rc/meet.jpg"}
+              />
             </div>
           </Link>
           <Link to="/project/emoji">
@@ -60,7 +58,10 @@ function Index() {
               onMouseLeave={handleMouseLeave}
               onMouseEnter={handleMouseEnter}
             >
-              <img className={"Work_img"} src={elk} />
+              <img
+                className={"Work_img"}
+                src={"https://i.postimg.cc/QdPwJny2/elkdi.jpg"}
+              />
             </div>
           </Link>
           <Link to="/project/mansion">
@@ -69,7 +70,10 @@ function Index() {
               onMouseLeave={handleMouseLeave}
               onMouseEnter={handleMouseEnter}
             >
-              <img className={"img"} src={starMansion} />
+              <img
+                className={"img"}
+                src={"https://i.postimg.cc/nV0d1Ps3/starmansion.jpg"}
+              />
             </div>
           </Link>
           <Link to="/project/festival">
@@ -78,7 +82,10 @@ function Index() {
               onMouseLeave={handleMouseLeave}
               onMouseEnter={handleMouseEnter}
             >
-              <img className={"img"} src={festival} />
+              <img
+                className={"img"}
+                src={"https://i.postimg.cc/2yzK5p1Z/festivalposter.jpg"}
+              />
             </div>
           </Link>
           <Link to="/project/qixi">
@@ -87,7 +94,10 @@ function Index() {
               onMouseLeave={handleMouseLeave}
               onMouseEnter={handleMouseEnter}
             >
-              <img className={"img"} src={qixi} />
+              <img
+                className={"img"}
+                src={"https://i.postimg.cc/76NKdBKY/qixifestival.jpg"}
+              />
             </div>
           </Link>
 

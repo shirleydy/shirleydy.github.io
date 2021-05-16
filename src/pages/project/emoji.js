@@ -3,7 +3,7 @@
  * @Author: Jack Deng
  * @Date: 2021-04-26 17:38:10
  * @LastEditors: Jack Deng
- * @LastEditTime: 2021-05-16 16:02:21
+ * @LastEditTime: 2021-05-16 21:41:40
  * @FilePath: /shirley/src/pages/project/emoji.js
  */
 import React from "react";
@@ -13,8 +13,6 @@ import image from "../../images/emoji.gif";
 import icon1 from "../../images/icon1.jpg";
 import icon2 from "../../images/icon2.jpg";
 import icon3 from "../../images/icon3.jpg";
-import emo1 from "../../images/elk3.jpg";
-import emo2 from "../../images/elk4.jpg";
 
 import "animate.css";
 import "../../styles/emoji/index.css";
@@ -44,10 +42,16 @@ function Index() {
             <img className={"Emoji_img"} src={image} />
           </div>
           <div className="Emoji_wrap5 flex-col">
-            <img className={"Emoji_img"} src={emo1} />
+            <img
+              className={"Emoji_img"}
+              src={"https://i.postimg.cc/7PVRWLRM/elkdisplay.jpg"}
+            />
           </div>
           <div className="Emoji_wrap6 flex-col">
-            <img className={"Emoji_img"} src={emo2} />
+            <img
+              className={"Emoji_img"}
+              src={"https://i.postimg.cc/MHdrMsBr/elkdownload.jpg"}
+            />
           </div>
 
           <span className="Emoji_txt1">{"Let’s connect"}</span>
