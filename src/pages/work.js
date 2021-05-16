@@ -3,8 +3,8 @@
  * @Author: Jack Deng
  * @Date: 2021-04-26 17:38:10
  * @LastEditors: Jack Deng
- * @LastEditTime: 2021-05-16 15:28:43
- * @FilePath: /shirley/src/pages/index.js
+ * @LastEditTime: 2021-05-16 14:34:04
+ * @FilePath: /shirley/src/pages/work.js
  */
 import React from "react";
 import { Link } from "gatsby";
@@ -12,7 +12,7 @@ import { Link } from "gatsby";
 import { Header } from "../components";
 
 import "animate.css";
-import "../styles/index/index.css";
+import "../styles/work/index.css";
 import "../styles/global.css";
 
 function Index() {
@@ -26,77 +26,91 @@ function Index() {
   };
   return (
     <main>
-      <title>Home</title>
-      <div className="page flex-col">
-        <div className="main1 flex-col">
-          <Header link={"home"} />
-          <div className={"homepage_title"}>
-            <span className="word3">
-              <span className={"word3_text"}>{"Hi, I’m Shirley Yue"}</span>
-              <div className="wrap2 flex-col" />
+      <title>Work</title>
+      <div className="Work_page flex-col">
+        <div className="Work_main1 flex-col">
+          <Header link={"work"} />
+          <div className={"Work_homepage_title"}>
+            <span className="Work_word3">
+              <span className={"Work_word3_text"}>{"Yes, I design"}</span>
+              <div className="Work_wrap2 flex-col" />
             </span>
           </div>
-
-          <div className="wrap3 flex-row">
-            <span className="info41">{`I `}</span>
-            <span className={"info4 hollow design"}>{"design"}</span>
-            <span className={"info4 hollow"}>{", "}</span>
-            <span className={"info4 hollow sing"}>{"sing"}</span>
-            <span className={"info4 hollow"}>{" & "}</span>
-            <span className={"info4 hollow paint"}>{"paint"}</span>
-            <div className="group1 flex-col" />
-          </div>
-          <span className="infoBox1">
-            I'm&nbsp;a&nbsp;UI&nbsp;designer&nbsp;based&nbsp;in&nbsp;Sydney,&nbsp;Australia&nbsp;with&nbsp;experience&nbsp;in&nbsp;delivering&nbsp;end-to-end&nbsp;UI&nbsp;design&nbsp;for&nbsp;digital&nbsp;products.&nbsp;I'm&nbsp;passionate&nbsp;about&nbsp;
-            <br />
-            improving&nbsp;the&nbsp;lives&nbsp;of&nbsp;users&nbsp;through&nbsp;design&nbsp;and&nbsp;am&nbsp;constantly&nbsp;looking&nbsp;to&nbsp;learn&nbsp;new&nbsp;things&nbsp;everyday.
-          </span>
-          <span className="info5">My&nbsp;Recent&nbsp;Work</span>
+          <span className="Work_info5">{"My Work Collection"}</span>
           <Link to="/project/meet">
             <div
-              className="wrap4 flex-col"
+              className="Work_wrap4 flex-col"
               onMouseLeave={handleMouseLeave}
               onMouseEnter={handleMouseEnter}
             >
               <img
-                className={"img"}
+                className={"Work_img"}
                 src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngd1bcc4d2d664e0bcff75df3a8976e6ea2008e3f53fae70fc4428693dc4026bc2"
               />
             </div>
           </Link>
           <Link to="/project/emoji">
             <div
-              className="wrap5 flex-col"
+              className="Work_wrap5 flex-col"
               onMouseLeave={handleMouseLeave}
               onMouseEnter={handleMouseEnter}
             >
               <img
-                className={"img"}
+                className={"Work_img"}
                 src={
-                  "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPnge3995667fee600c03b501834dda372baa731e6a5871098040c9b94e37ffa9b2d"
+                  "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng45a8ab99d24bb23e51799ae5c4952e8f14a7b6cdd252279f3494a97398b5bcf0"
                 }
               />
             </div>
           </Link>
           <Link to="/project/mansion">
             <div
-              className="wrap6 flex-col"
+              className="Work_wrap6 flex-col"
               onMouseLeave={handleMouseLeave}
               onMouseEnter={handleMouseEnter}
             >
               <img
                 className={"img"}
                 src={
-                  "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng72fae7849635ad79db5f05fe0d673d547440244a3e84af84d35b29f974328bb3"
+                  "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng416702a201f1326c5eaeb206965e0322efc2a12d96f1b103574ed2977da1a18e"
                 }
               />
             </div>
           </Link>
-          <span className="txt1">{"Let’s connect"}</span>
-          <div className="wrap7">
-            <div className={"icon-container"}>
+          <Link to="/project/festival">
+            <div
+              className="Work_wrap6 flex-col"
+              onMouseLeave={handleMouseLeave}
+              onMouseEnter={handleMouseEnter}
+            >
               <img
-                className={"icon expand"}
+                className={"img"}
+                src={
+                  " https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngfcb6c1ab7e8e46abcdd1b577191645a4348b728528a916177cdf39fd27f50467"
+                }
+              />
+            </div>
+          </Link>
+          <Link to="/project/qixi">
+            <div
+              className="Work_wrap6 flex-col"
+              onMouseLeave={handleMouseLeave}
+              onMouseEnter={handleMouseEnter}
+            >
+              <img
+                className={"img"}
+                src={
+                  " https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngfb7b9573eeb87d4f40df42b4b32b33ebeec70f3de0b94b8390211b0af742f97b"
+                }
+              />
+            </div>
+          </Link>
+
+          <span className="Work_txt1">{"Let’s connect"}</span>
+          <div className="Work_wrap7">
+            <div className={"Work_icon-container"}>
+              <img
+                className={"Work_icon expand"}
                 onClick={() =>
                   window.open(
                     "https://www.linkedin.com/in/di-shirley-yue-b58723113/"
@@ -105,7 +119,7 @@ function Index() {
                 src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng9ed1245fee470366086500a777411384708b7b3e39be98c65e62af6bc81c2637"
               />
             </div>
-            <div title={"+610410918668"} className={"icon-container"}>
+            <div title={"+610410918668"} className={"Work_icon-container"}>
               <img
                 title={"+610410918668"}
                 className="icon expand"
@@ -117,9 +131,9 @@ function Index() {
                 }
               />
             </div>
-            <div className={"icon-container"}>
+            <div className={"Work_icon-container"}>
               <img
-                className={"icon expand"}
+                className={"Work_icon expand"}
                 onClick={() => {
                   window.open(
                     "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&su=Hola!&to=shirleyyuedi@gmail.com"

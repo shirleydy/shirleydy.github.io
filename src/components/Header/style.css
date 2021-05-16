@@ -1,0 +1,86 @@
+.wrap1 {
+    z-index: auto;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .header{
+    max-width:1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .word1 {
+    min-width:150px;
+    z-index: 3;
+    display: block;
+    overflow-wrap: break-word;
+    color: rgba(58, 64, 64, 1);
+    font-size: 1.11vw;
+    text-transform: uppercase;
+    font-family: AvenirNext-Medium;
+    line-height: 1.53vw;
+    text-align: justify;
+  }
+
+  .active{
+    color:#000 !important;
+  }
+
+  .no-underline{
+    text-decoration: none;
+  }
+
+  .info1 {
+    cursor: pointer;
+    z-index: 45;
+    display: block;
+    overflow-wrap: break-word;
+    color: rgba(150, 150, 150, 1);
+    font-size: 1.11vw;
+    font-family: AvenirNext-Medium;
+    line-height: 1.53vw;
+    text-align: justify;
+  }
+  
+  .info2 {
+    cursor: pointer;
+    z-index: 44;
+    display: block;
+    overflow-wrap: break-word;
+    color: rgba(150, 150, 150, 1);
+    font-size: 1.11vw;
+    font-family: AvenirNext-Medium;
+    line-height: 1.53vw;
+    text-align: justify;
+    margin-left: 3.48vw;
+  }
+
+  .info3 {
+    cursor: pointer;
+    z-index: 46;
+    display: block;
+    overflow-wrap: break-word;
+    color: rgba(150, 150, 150, 1);
+    font-size: 1.11vw;
+    text-transform: uppercase;
+    font-family: AvenirNext-Medium;
+    line-height: 1.53vw;
+    text-align: justify;
+    margin-left: 3.48vw;
+  }
+  
+  .word2 {
+    cursor: pointer;
+    z-index: 47;
+    display: block;
+    overflow-wrap: break-word;
+    color: rgba(150, 150, 150, 1);
+    font-size: 1.11vw;
+    font-family: AvenirNext-Medium;
+    line-height: 1.53vw;
+    text-align: justify;
+    margin-left: 3.48vw;
+  }
+  
