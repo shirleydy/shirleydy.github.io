@@ -3,11 +3,17 @@
  * @Author: Jack Deng
  * @Date: 2021-04-26 17:38:10
  * @LastEditors: Jack Deng
- * @LastEditTime: 2021-05-16 15:28:43
+ * @LastEditTime: 2021-05-16 15:52:15
  * @FilePath: /shirley/src/pages/index.js
  */
 import React from "react";
 import { Link } from "gatsby";
+import meet from "../images/meet.jpg";
+import icon1 from "../images/icon1.jpg";
+import icon2 from "../images/icon2.jpg";
+import icon3 from "../images/icon3.jpg";
+import starMansion from "../images/starmansion.jpg";
+import elk from "../images/elkdi.jpg";
 
 import { Header } from "../components";
 
@@ -58,10 +64,7 @@ function Index() {
               onMouseLeave={handleMouseLeave}
               onMouseEnter={handleMouseEnter}
             >
-              <img
-                className={"img"}
-                src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngd1bcc4d2d664e0bcff75df3a8976e6ea2008e3f53fae70fc4428693dc4026bc2"
-              />
+              <img className={"img"} src={meet} />
             </div>
           </Link>
           <Link to="/project/emoji">
@@ -70,12 +73,7 @@ function Index() {
               onMouseLeave={handleMouseLeave}
               onMouseEnter={handleMouseEnter}
             >
-              <img
-                className={"img"}
-                src={
-                  "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPnge3995667fee600c03b501834dda372baa731e6a5871098040c9b94e37ffa9b2d"
-                }
-              />
+              <img className={"img"} src={elk} />
             </div>
           </Link>
           <Link to="/project/mansion">
@@ -84,12 +82,7 @@ function Index() {
               onMouseLeave={handleMouseLeave}
               onMouseEnter={handleMouseEnter}
             >
-              <img
-                className={"img"}
-                src={
-                  "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng72fae7849635ad79db5f05fe0d673d547440244a3e84af84d35b29f974328bb3"
-                }
-              />
+              <img className={"img"} src={starMansion} />
             </div>
           </Link>
           <span className="txt1">{"Let’s connect"}</span>
@@ -102,7 +95,7 @@ function Index() {
                     "https://www.linkedin.com/in/di-shirley-yue-b58723113/"
                   )
                 }
-                src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng9ed1245fee470366086500a777411384708b7b3e39be98c65e62af6bc81c2637"
+                src={icon1}
               />
             </div>
             <div title={"+610410918668"} className={"icon-container"}>
@@ -112,9 +105,7 @@ function Index() {
                 onClick={() => {
                   window.open("tel://+610410918668");
                 }}
-                src={
-                  "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng2622058b150d22bc7da7488109ec1cc12058a480916585f601d098a87dddbb13"
-                }
+                src={icon2}
               />
             </div>
             <div className={"icon-container"}>
@@ -125,9 +116,7 @@ function Index() {
                     "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&su=Hola!&to=shirleyyuedi@gmail.com"
                   );
                 }}
-                src={
-                  "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng08c362bac5f41fda5f08002921b231abc2ceb855a7786b06e7fc2bdf7d093826"
-                }
+                src={icon3}
               />
             </div>
           </div>

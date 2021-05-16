@@ -179,13 +179,14 @@
   
   .Illustration_icon {
     z-index: 59;
-    width: 2.78vw;
-    height: 2.85vw;
     cursor: pointer;
   }
 
   .Illustration_icon-container{
     width:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
   }
   
@@ -199,12 +200,7 @@
   }
   
 
-  .expand:hover{
-    width:3.5vw;
-    height:3.5vw;
-    transition: all 0.2s linear;
-    /* animation: extend 300ms linear; */
-  }
+
 
   /* @keyframes extend {
     0%{

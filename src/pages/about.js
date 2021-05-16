@@ -3,7 +3,7 @@
  * @Author: Jack Deng
  * @Date: 2021-04-26 17:38:10
  * @LastEditors: Jack Deng
- * @LastEditTime: 2021-05-16 14:15:21
+ * @LastEditTime: 2021-05-16 15:38:17
  * @FilePath: /shirley/src/pages/about.js
  */
 import React from "react";
@@ -11,6 +11,9 @@ import React from "react";
 import { Header } from "../components";
 import image from "../images/about.jpg";
 import resume from "../images/resume.pdf";
+import icon1 from "../images/icon1.jpg";
+import icon2 from "../images/icon2.jpg";
+import icon3 from "../images/icon3.jpg";
 
 import "animate.css";
 import "../styles/about/index.css";
@@ -55,7 +58,7 @@ When I'm not designing or drawing you can find me cooking or singing.`}</span>
                     "https://www.linkedin.com/in/di-shirley-yue-b58723113/"
                   )
                 }
-                src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng9ed1245fee470366086500a777411384708b7b3e39be98c65e62af6bc81c2637"
+                src={icon1}
               />
             </div>
             <div title={"+610410918668"} className={"About_icon-container"}>
@@ -65,9 +68,7 @@ When I'm not designing or drawing you can find me cooking or singing.`}</span>
                 onClick={() => {
                   window.open("tel://+610410918668");
                 }}
-                src={
-                  "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng2622058b150d22bc7da7488109ec1cc12058a480916585f601d098a87dddbb13"
-                }
+                src={icon2}
               />
             </div>
             <div className={"About_icon-container"}>
@@ -78,9 +79,7 @@ When I'm not designing or drawing you can find me cooking or singing.`}</span>
                     "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&su=Hola!&to=shirleyyuedi@gmail.com"
                   );
                 }}
-                src={
-                  "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng08c362bac5f41fda5f08002921b231abc2ceb855a7786b06e7fc2bdf7d093826"
-                }
+                src={icon3}
               />
             </div>
           </div>

@@ -3,7 +3,7 @@
  * @Author: Jack Deng
  * @Date: 2021-05-16 12:39:09
  * @LastEditors: Jack Deng
- * @LastEditTime: 2021-05-16 12:56:08
+ * @LastEditTime: 2021-05-16 15:56:55
  * @FilePath: /shirley/src/pages/project/festival.js
  */
 /*
@@ -17,6 +17,15 @@
 import React from "react";
 
 import { Header } from "../../components";
+import icon1 from "../../images/icon1.jpg";
+import icon2 from "../../images/icon2.jpg";
+import icon3 from "../../images/icon3.jpg";
+import post1 from "../../images/poster1.png";
+import post2 from "../../images/poster2.png";
+import post3 from "../../images/poster3.png";
+import post4 from "../../images/poster4.png";
+import post5 from "../../images/poster5.png";
+import post6 from "../../images/poster6.png";
 
 import "animate.css";
 import "../../styles/festival/index.css";
@@ -47,36 +56,12 @@ function Index() {
           </div>
           <span className="Festival_info5">{"Festival Posters"}</span>
           <div className={"grid"}>
-            <img
-              className={"grid-img"}
-              src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng69060bdec3b32180c1616df6816367afecb06bd8b86f8691011cb3e5a8278cc4"
-              alt=""
-            />
-            <img
-              className={"grid-img"}
-              src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng9fdbad82fd11341ea04810004173f5872203a9de1019f6a49033e13eee285df2"
-              alt=""
-            />
-            <img
-              className={"grid-img"}
-              src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng56d6467e68af3907d9002ce839ce30c8de1f804ad39f6cf9302f0bb664d69b98"
-              alt=""
-            />
-            <img
-              className={"grid-img"}
-              src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngb2f1d6fa45935fb0b7b293d3ae8570184cac3ca2f4158ef2039d8bcd41d273a2"
-              alt=""
-            />
-            <img
-              className={"grid-img"}
-              src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngdd5ae6687024b3d1152176297b33232b045d646a3fd64e230de98974b79d8ac9"
-              alt=""
-            />
-            <img
-              className={"grid-img"}
-              src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngb5081c37584984e9a19be9151bd4c3638699745e115508aefbb2db1033c27327"
-              alt=""
-            />
+            <img className={"grid-img"} src={post1} alt="" />
+            <img className={"grid-img"} src={post2} alt="" />
+            <img className={"grid-img"} src={post3} alt="" />
+            <img className={"grid-img"} src={post4} alt="" />
+            <img className={"grid-img"} src={post5} alt="" />
+            <img className={"grid-img"} src={post6} alt="" />
           </div>
           <span className="Festival_txt1">{"Let’s connect"}</span>
           <div className="Festival_wrap7">
@@ -88,7 +73,7 @@ function Index() {
                     "https://www.linkedin.com/in/di-shirley-yue-b58723113/"
                   )
                 }
-                src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng9ed1245fee470366086500a777411384708b7b3e39be98c65e62af6bc81c2637"
+                src={icon1}
               />
             </div>
             <div title={"+610410918668"} className={"Festival_icon-container"}>
@@ -98,9 +83,7 @@ function Index() {
                 onClick={() => {
                   window.open("tel://+610410918668");
                 }}
-                src={
-                  "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng2622058b150d22bc7da7488109ec1cc12058a480916585f601d098a87dddbb13"
-                }
+                src={icon2}
               />
             </div>
             <div className={"Festival_icon-container"}>
@@ -111,9 +94,7 @@ function Index() {
                     "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&su=Hola!&to=shirleyyuedi@gmail.com"
                   );
                 }}
-                src={
-                  "https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng08c362bac5f41fda5f08002921b231abc2ceb855a7786b06e7fc2bdf7d093826"
-                }
+                src={icon3}
               />
             </div>
           </div>
