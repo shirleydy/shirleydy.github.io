@@ -3,14 +3,14 @@
  * @Author: Jack Deng
  * @Date: 2021-04-26 17:38:10
  * @LastEditors: Jack Deng
- * @LastEditTime: 2021-05-28 10:42:42
+ * @LastEditTime: 2021-05-28 14:57:55
  * @FilePath: /shirley/src/pages/about.js
  */
 import React from "react";
 
 import { Header } from "../components";
 import image from "../images/about.jpg";
-import resume from "../images/resume.pdf";
+import resume from "../images/Resume_DiYue.pdf";
 import icon1 from "../images/icon1.jpg";
 import icon2 from "../images/icon2.jpg";
 import icon3 from "../images/icon3.jpg";
@@ -44,7 +44,7 @@ function Index() {
           <span className="About_info5">{`Hi, my name is Di Yue (Shirley) and I'm a self taught UI designer and illustrator. After 3 years the creative process still keeps me excited every single time. Every single project.  I have learnt a lot of the processes, concepts and theories of UX/UI through attending workshops, reading books, blogs and applying these to projects in my spare time and at work. I am very much a big-picture thinker and enjoy working on products end to end, from ideation all the way to development.
 When I'm not designing or drawing you can find me cooking or singing.`}</span>
           <div className="About_wrap4 flex-col">
-            <a href={resume} download={"resume"}>
+            <a href={resume} download={"Resume_Di Yue"}>
               <img className={"About_img"} src={image} />
             </a>
           </div>
