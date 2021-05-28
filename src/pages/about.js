@@ -3,7 +3,7 @@
  * @Author: Jack Deng
  * @Date: 2021-04-26 17:38:10
  * @LastEditors: Jack Deng
- * @LastEditTime: 2021-05-16 15:38:17
+ * @LastEditTime: 2021-05-28 10:42:42
  * @FilePath: /shirley/src/pages/about.js
  */
 import React from "react";
@@ -54,9 +54,7 @@ When I'm not designing or drawing you can find me cooking or singing.`}</span>
               <img
                 className={"About_icon expand"}
                 onClick={() =>
-                  window.open(
-                    "https://www.linkedin.com/in/di-shirley-yue-b58723113/"
-                  )
+                  window.open("https://www.linkedin.com/in/diyue-uidesigner/")
                 }
                 src={icon1}
               />

@@ -85,9 +85,7 @@ function Index() {
               <img
                 className={"Illustration_icon expand"}
                 onClick={() =>
-                  window.open(
-                    "https://www.linkedin.com/in/di-shirley-yue-b58723113/"
-                  )
+                  window.open("https://www.linkedin.com/in/diyue-uidesigner/")
                 }
                 src={icon1}
               />
