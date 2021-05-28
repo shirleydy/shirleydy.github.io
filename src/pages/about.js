@@ -3,14 +3,14 @@
  * @Author: Jack Deng
  * @Date: 2021-04-26 17:38:10
  * @LastEditors: Jack Deng
- * @LastEditTime: 2021-05-28 14:57:55
+ * @LastEditTime: 2021-05-28 15:02:10
  * @FilePath: /shirley/src/pages/about.js
  */
 import React from "react";
 
 import { Header } from "../components";
 import image from "../images/about.jpg";
-import resume from "../images/Resume_DiYue.pdf";
+import resume from "../images/resume.pdf";
 import icon1 from "../images/icon1.jpg";
 import icon2 from "../images/icon2.jpg";
 import icon3 from "../images/icon3.jpg";
