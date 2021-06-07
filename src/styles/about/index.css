@@ -110,16 +110,19 @@
     color: #3A4040;
     /* font-size: 21px; */
     font-family: AvenirNext-Medium;
-    line-height: 45px;
+    line-height: 30px;
     text-align: justify;
     align-self: flex-start;
     margin-top: 5.56vw;
+    margin-right:42px;
   }
   
   .About_wrap4 {
     z-index: 49;
     width: 100%;
     align-self: center;
+    justify-content: center;
+    text-align: center;
     margin-top: 2.09vw;
     cursor: pointer;
   }
@@ -133,7 +136,7 @@
   }
 
   .About_img{
-    width:100%;
+    width:80%;
   }
 
 

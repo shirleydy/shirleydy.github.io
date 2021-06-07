@@ -3,7 +3,7 @@
  * @Author: Jack Deng
  * @Date: 2021-04-26 17:38:10
  * @LastEditors: Jack Deng
- * @LastEditTime: 2021-05-16 21:42:08
+ * @LastEditTime: 2021-06-07 22:32:14
  * @FilePath: /shirley/src/pages/index.js
  */
 import React from "react";
@@ -35,7 +35,7 @@ function Index() {
           <Header link={"home"} />
           <div className={"homepage_title"}>
             <span className="word3">
-              <span className={"word3_text"}>{"Hi, I’m Shirley Yue"}</span>
+              <span className={"word3_text"}>{"Hi, I’m Di Yue"}</span>
               <div className="wrap2 flex-col" />
             </span>
           </div>

@@ -23,7 +23,7 @@
   .word3 {
     position: relative;
     z-index: 11;
-    width: 34.59vw;
+    width: 25.59vw;
     display: block;
     overflow-wrap: break-word;
     color: rgba(58, 64, 64, 1);
@@ -44,7 +44,7 @@
     bottom:0;
     position: absolute;
     z-index: -1;
-    width: 21.39vw;
+    width: 12.39vw;
     height: 2.5vw;
     background-color: rgba(255, 244, 177, 1);
     align-self: flex-start;
@@ -208,6 +208,7 @@
     width:100px;
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;
   }
   

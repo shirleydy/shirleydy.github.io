@@ -3,7 +3,7 @@
  * @Author: Jack Deng
  * @Date: 2021-05-02 12:03:57
  * @LastEditors: Jack Deng
- * @LastEditTime: 2021-05-16 15:18:48
+ * @LastEditTime: 2021-06-07 22:33:55
  * @FilePath: /shirley/src/components/Header/index.jsx
  */
 import React from "react";
@@ -14,7 +14,7 @@ import "./style.css";
 function Header({link}) {
   return (
     <section className={"header"}>
-        <span className="word1">{"Shirley Yue"}</span>
+        <span className="word1">{"Di Yue"}</span>
        <div className="wrap1 flex-row">
             <Link to={"/"} className={'no-underline'}>
               <span className={link === 'home' ? "active info1": 'info1'}>HOME</span>
