@@ -227,3 +227,17 @@
     height:4vw;
   }
 } */
+
+
+.paragraph{
+  font-family: AvenirNext-Medium;
+  font-weight:300;
+  margin-bottom:50px;
+  margin-left:75px;
+  font-size:13px;
+  max-width:1000px;
+  text-align: left;
+  line-height: 1.5;
+  word-spacing: normal;
+  color:rgba(187, 187, 187, 1);
+}
