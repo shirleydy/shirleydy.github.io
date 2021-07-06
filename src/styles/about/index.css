@@ -109,12 +109,14 @@
     overflow-wrap: break-word;
     color: #3A4040;
     /* font-size: 21px; */
-    font-family: AvenirNext-Medium;
+    font-family: Poppins;
     line-height: 30px;
     text-align: justify;
     align-self: flex-start;
-    margin-top: 5.56vw;
     margin-right:42px;
+    padding-right:72px;
+    margin-top:10px;
+
   }
   
   .About_wrap4 {

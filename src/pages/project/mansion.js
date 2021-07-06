@@ -3,7 +3,7 @@
  * @Author: Jack Deng
  * @Date: 2021-04-26 17:38:10
  * @LastEditors: Jack Deng
- * @LastEditTime: 2021-05-16 21:40:57
+ * @LastEditTime: 2021-07-06 12:13:43
  * @FilePath: /shirley/src/pages/project/mansion.js
  */
 import React from "react";
@@ -34,7 +34,7 @@ function Index() {
           <Header link={"Illustration"} />
           <div className={"Mansion_homepage_title"}>
             <span className="Mansion_word3">
-              <span className={"Mansion_word3_text"}>{"Start Mansions"}</span>
+              <span className={"Mansion_word3_text"}>{"Star Mansions"}</span>
               <div className="Mansion_wrap2 flex-col" />
             </span>
           </div>
