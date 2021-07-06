@@ -1,6 +1,6 @@
 .Meet_page {
   position: relative;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(248, 247, 244, 0.445);
   overflow: hidden;
   justify-content: flex-start;
   padding-top: 5.28vw;
@@ -230,14 +230,18 @@
 
 
 .paragraph{
-  font-family: AvenirNext-Medium;
-  font-weight:300;
+  font-family: Popins;
+  font-weight:400;
   margin-bottom:50px;
   margin-left:75px;
   font-size:13px;
   max-width:1000px;
   text-align: left;
-  line-height: 1.5;
+  line-height: 2;
   word-spacing: normal;
-  color:rgba(187, 187, 187, 1);
+  color:#a4a4a9;
+}
+
+.meet_whole_container{
+  background: #ddd;
 }
